@@ -2,19 +2,23 @@
     <head>
         <title> Alex's Portfolio</title>
         <nav id="topbar">
-            <h2>Alex's</h2>
+            <h2 style="text-align: center; color: red;" >Alex's portfolio</h2>
             <ul>
+                <li>
+                    <a class="nav-item" href="#EducationDetails">Education Details</a>
+                  </li>
               <li><a class="nav-item" href="#Skills">Skills</a></li>
               <li>
-                <a class="nav-item" href="#Contact Page">Contact Page</a>
+                <a class="nav-item" href="#Projects">Projects</a>
               </li>
               <li>
-                <a class="nav-item" href="#Education Details">Education Details</a>
-              </li>
+                <a class="nav-item" href="#ContactPage">Contact Page</a>
+              </li> 
             </ul>
           </nav>
           <script src="https://kit.fontawesome.com/0c7c6f3711.js" crossorigin="anonymous"></script>
-    </head>
+          <link rel="stylesheet" href="homepage.css">
+           </head>
     <style>
        table, th, td {
         border: 1px solid black;
@@ -23,15 +27,32 @@
         </style>
     <body>
             <div id="header">
-                <p id="name">InfySkill</p>
-                         <a href="mailto:alex@gmail.com"> <p id="email">alex@gmail.comn</p></a>
-                         <a href="https://drive.google.com/file/d/1z9jK3L6sEP8EMoCxYRAvA4g-zRxUh47i/view?usp=sharing">View Resume</a>
+                <div id="ab">
+                    <a href="alex@gmail.com"> <i class="fas fa-envelope" style="margin-right: 50px;"> alex@gmail.com </i></a>
+                <a href="+91 5555555555555">  <i class="fas fa-phone" style="margin-right: 50px;"> +91 99999999999</i> </a>
+                <a href="https://your-link-url.com"> <i class="fab fa-linkedin"></i> LinkedIn: Alexsailinkedin</a>
+
+            </div>
+                         <a href="https://drive.google.com/file/d/1Oa76Q-w26Kzh4pj_aLLn6VyWIpMj8plN/view?usp=sharing"> <i class="fas fa-file-pdf"> View Resume </a></i>
                          <img src="https://t4.ftcdn.net/jpg/01/76/80/47/240_F_176804782_qu1O98EZXIgouuGbfdEn6mwCoYx2bScH.jpg" alt="AlexImage">
         </div>
+        <div id="about">
+            <h3>
+                About 
+            </h3>
+                <p>
+                    Software Engineer with 5 years of experience in developing and delivering high-quality software. 
+                    Proven ability to work independently and as part of a team. Strong problem-solving and analytical skills.
+Experienced in a variety of programming languages and technologies, 
+including Java, Python, and React. Successfully delivered projects on time and within budget.
+Passionate about using technology to solve real-world problems. 
+Seeking a challenging role in a fast-paced environment.
+                </p>
+        </div>
         <div>
-            <section id = "Education Details">
-                <h3>Educational Qualifications</h3>
-                <table  style="width:100%">
+            <section id = "EducationDetails">
+                <h3 style="text-align: center;">Educational Qualifications</h3>
+                <table  style="width: 90%; margin: 0 auto;">
                     <tr id="heading">
                         <td><b>Qualification</b></td>
                         <td><b>Board</b></td>
@@ -61,19 +82,72 @@
             </section>
         <div>
             <section id = "Skills">
+                <h3> Skills </h3>
+                <ul>
+                    <li>
+                     HTML & CSS for Beginners – <b> Web Fundamentals </b></li>
+                    <li>
+                   Python – <b> Fundamentals and Dynamic Programming</b></li>
+                    <li>
+                 JavaScript – <b> Programming Basics, JS Apps and Build Games </b></li>
+            </section>
+        </div>
+
 
             </section>
         </div>
         <div>
-            <section id = "Contact Page">
-                <p>
-                <i class="fa-sharp fa-regular fa-envelope"> alex@gmail.com</i>
-            </p>
-
+            <section id="Projects">
+                <h3 style="margin: 20px;">Projects</h3>
+                <ul>
+                    <li>
+                        <div class="project">
+                            <img src="https://t4.ftcdn.net/jpg/01/76/80/47/240_F_176804782_qu1O98EZXIgouuGbfdEn6mwCoYx2bScH.jpg" alt="Project 1">
+                            <div class="description">
+                                <b>Phd Admission Portal</b> – The Ph.D. Admission Portal is a web application developed using Java as the backend language and the Spring Boot framework 
+                                for server-side development. The front end of the application is built using React, for building user interfaces.
+                                <a href = "https://vit.ac.in/?gclid=Cj0KCQjw0vWnBhC6ARIsAJpJM6dqPq0chc-ZEj_pny3NOWRXXrdbQ8lTmIWWT3S-TjIYLGJg4D8afj4aAsRdEALw_wcB"> More Details </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="project">
+                            <img src="https://t4.ftcdn.net/jpg/01/76/80/47/240_F_176804782_qu1O98EZXIgouuGbfdEn6mwCoYx2bScH.jpg" alt="Project 2">
+                            <div class="description">
+                                <b>Responsive Portfolio Website</b> The Responsive Portfolio Website is a project aimed at creating a 
+                                visually appealing and user-friendly website to showcase your portfolio, skills, and accomplishments. 
+                                The website is designed to adapt and provide an optimal viewing experience across different devices and screen sizes, 
+                                ensuring that your portfolio is accessible and visually appealing to a wide range of users.
+                                <a href = "https://vit.ac.in/?gclid=Cj0KCQjw0vWnBhC6ARIsAJpJM6dqPq0chc-ZEj_pny3NOWRXXrdbQ8lTmIWWT3S-TjIYLGJg4D8afj4aAsRdEALw_wcB"> More Details </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="project">
+                            <img src="https://t4.ftcdn.net/jpg/01/76/80/47/240_F_176804782_qu1O98EZXIgouuGbfdEn6mwCoYx2bScH.jpg" alt="Project 3">
+                            <div class="description">
+                                <b>Ride Sharing Application</b> The Ride Sharing Application is a 
+                                Java-based project developed using the Spring Boot framework. 
+                                It is designed to provide a convenient and efficient platform for users to share rides, 
+                                making transportation more accessible and cost-effective.
+                                <a href = "https://vit.ac.in/?gclid=Cj0KCQjw0vWnBhC6ARIsAJpJM6dqPq0chc-ZEj_pny3NOWRXXrdbQ8lTmIWWT3S-TjIYLGJg4D8afj4aAsRdEALw_wcB"> More Details </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </section>
         </div>
-
-       
-        </div>
+            <div>
+                <section id="ContactPage">
+                    <h3>Contact Details</h3>
+                    <ul>
+                        <li><i class="fas fa-user"></i> Name: Alex's</li>
+                        <li><i class="fas fa-phone"></i> Phone Number: +91 999999999</li>
+                        <li><i class="fas fa-envelope"></i> Email: Alex@gmail.com</li>
+                        <li><i class="fab fa-linkedin"></i> LinkedIn: Alexsailinkedin</li>
+                    </ul>
+                </section>
+            </div>
+        
     </body>
 </html>
